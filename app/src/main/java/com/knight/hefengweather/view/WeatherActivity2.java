@@ -331,7 +331,7 @@ public class WeatherActivity2 extends AppCompatActivity {
     }
 
     public void updateWeather() {
-
+        L.i("updateWeather");
         currentCityId = sharedPreferences.getString(Psfs.currentCityId,null);
         L.i("updateWeather currentCityId:" + currentCityId);
         HefengWeatherApi.updateWeather(currentCityId,handler,WeatherActivity2.this);
