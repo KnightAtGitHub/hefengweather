@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">和风天气预报</string>
+    <string name="title_activity_baidu_test">BaiduTestActivity</string>
+</resources>

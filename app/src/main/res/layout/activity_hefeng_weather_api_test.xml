@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/city_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您要查询天气的城市"/>
+    <Button
+        android:id="@+id/weather_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询所有天气"/>
+    <TextView
+        android:id="@+id/show_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="other"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/show_weather_textview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+
+</LinearLayout>
